@@ -15,7 +15,7 @@ This repository documents my journey of learning Python programming — from bas
 ## 📚 Resources I'm Following
 
 ### 📺 YouTube Channel:
-- [CodeWithHarry Python Tutorials](https://www.youtube.com/watch?v=UrsmFxEIp5k&t=6679s)
+- [CodeWithHarry Python Oneshot](https://www.youtube.com/watch?v=UrsmFxEIp5k&t=6679s)
 
 ### 📖 Official Documentation:
 - [Python 3 Official Docs](https://docs.python.org/3/)
@@ -28,7 +28,4 @@ This repository documents my journey of learning Python programming — from bas
 - Variables and Data Types
 - Strings
 - Lists, Tuples, Sets, and Dictionaries  
-- Operators and Expressions  
-- Conditional Statements (if-else)  
-- Loops (for, while)  
-- Functions  
+

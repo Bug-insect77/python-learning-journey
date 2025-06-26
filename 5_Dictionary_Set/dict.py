@@ -9,8 +9,14 @@
 # # it is unordered, mutable, indexed, cannot contain duplicate key
 # b = a.values()
 # print(b)
-# print(type(b))
 # print(a.values())
+# print(type(b))
 # print(type(a.values()))
 
 #Dictonary Methods
+# a.update({"name":"tusharsingh","class":"btech"})
+# # print(a)
+
+# print(a.keys())
+# print(a.values())
+# print(a.get("name"))

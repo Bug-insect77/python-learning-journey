@@ -27,5 +27,7 @@ This repository documents my journey of learning Python programming — from bas
 ## 📝 Topics Covered So Far
 - Variables and Data Types
 - Strings
-- Lists, Tuples, Sets, and Dictionaries  
+- Lists, Tuples, Sets, and Dictionaries
+- Conditional Expression
+- Loops 
 

@@ -1,0 +1,4 @@
+this is new text 
+this is second line
+this python course is amazing
+hello this is tushar learning python

@@ -30,4 +30,7 @@ This repository documents my journey of learning Python programming — from bas
 - Lists, Tuples, Sets, and Dictionaries
 - Conditional Expression
 - Loops 
+- Function and Recursion (basic)
+- File input/output
+
 

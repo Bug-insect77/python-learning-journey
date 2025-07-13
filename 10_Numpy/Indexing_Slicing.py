@@ -11,8 +11,8 @@ print("Original array: ",arr)
 '''
 
 arr = np.array([10,20,30,40,10,40,50,60])
-# print(arr[0])
-# print(arr[1:5:1])
+print(arr[0])
+print(arr[1:5:1])
 
 #boolean masking filtering
 # arr[arr !=10] -=10
@@ -39,10 +39,10 @@ print(aee)
 # print(c)
 
 #Inserting data in np arrays 
-arr = np.array([[1,2],[3,4],[4,4]])
-# print(np.insert(arr,(2),[0,0],axis=1))
-# print(arr)
+# arr = np.array([[1,2],[3,4],[4,4]])
+# # print(np.insert(arr,(2),[0,0],axis=1))
+# # print(arr)
 
-print(arr)
-print(arr.reshape((2,3)))
-print(arr)
+# print(arr)
+# print(arr.reshape((2,3)))
+# print(arr)

@@ -28,13 +28,13 @@ print(arr ** 2)
 '''
 
 #Aggregation functions np.min() ,np.mean()
-# arr = np.array([10,20,30,40,50])
-# print("Minimum value: ",np.min(arr))
-# print("Maximum value: ",np.max(arr))
-# print("Mean value: ",np.mean(arr))
-# print("Median value: ",np.median(arr))
-# print("Sum : ",np.sum(arr))
-# print("Standard Deviation: ",np.std(arr))
-# print("Variance: ",np.var(arr))
+arr = np.array([10,20,30,40,50])
+print("Minimum value: ",np.min(arr))
+print("Maximum value: ",np.max(arr))
+print("Mean value: ",np.mean(arr))
+print("Median value: ",np.median(arr))
+print("Sum : ",np.sum(arr))
+print("Standard Deviation: ",np.std(arr))
+print("Variance: ",np.var(arr))
 
 

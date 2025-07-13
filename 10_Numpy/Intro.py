@@ -8,16 +8,16 @@ print(numpy_array)
 
 '''
 #2 dimensional array
+# print(numpy_array_2d)
+#print(numpy_array_2d.shape) #Gives shape
 numpy_array_2d = np.array([[1,2,3],
                           [4,5,6],
                           [7,8,9]])
-# print(numpy_array_2d)
-#print(numpy_array_2d.shape) #Gives shape
-#print(numpy_array_2d.dtype) #Data type
-#print(numpy_array_2d.ndim)  #Number of dimensions
+print(numpy_array_2d.dtype) #Data type
+print(numpy_array_2d.ndim)  #Number of dimensions
 '''
-#Some array methods 
 
+#Some array methods 
 # np.zero(shape) = np.zero((2,3))
 # arrar = np.zeros((3,4))
 # arrar2 = np.ones((3,4))

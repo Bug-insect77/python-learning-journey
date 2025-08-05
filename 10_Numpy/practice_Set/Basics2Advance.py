@@ -117,7 +117,7 @@ import numpy as np
 2️⃣5️⃣ Normalize a NumPy array so its values fall between 0 and 1
 '''
 # arr1 = np.random.randint(0,10,(2,3))
-# arr2 = np.random.randint(0,10,(2,3))
+# arr2 = np.random.randint(0,10,(2,3)) 
 # arr3 = np.vstack((arr1,arr2))
 # arr4 = np.hstack((arr1,arr2))
 # print(arr1)
@@ -126,10 +126,27 @@ import numpy as np
 # print(arr4)
 
 
-arr1 = np.random.randint(0,10,(4,4))
+import numpy as np
+
+arr1 = np.random.randint(0, 10, (4, 4))
+
+# First, split vertically into two 2x4 sub-arrays
+v_matrices = np.vsplit(arr1, 2)
+
+# Then split each 2x4 matrix horizontally into two 2x2 matrices
+matrix = [np.hsplit(mat, 2) for mat in v_matrices]
+
+print("Original Array:")
 print(arr1)
-a,b,c,d = np.split(arr1,(4),axis=1)
-print(a)
-print(b)
-print(c)
-print(d)
+
+print("\nSubmatrices:")
+for row in matrix:
+    for m in row:
+        print(m)
+
+
+# checkerboard = np.zeros((8, 8), dtype=int)
+# print(checkerboard)
+# checkerboard[1::2 ,::2] =1
+# checkerboard[::2] =1
+# print(checkerboard)
